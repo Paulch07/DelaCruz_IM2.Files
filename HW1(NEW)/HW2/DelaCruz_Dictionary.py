@@ -24,7 +24,7 @@ while True:
         break
 
     elif option == "A":
-        new_key = max(mydict.keys()) + 1 if mydict else 0
+        new_key = max(mydict.keys()) + 1
         new_item = input("Enter new item: ")
         mydict[new_key] = new_item
         print("Item added.")
