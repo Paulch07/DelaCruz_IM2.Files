@@ -80,17 +80,4 @@ while True:
             print("Sorry not found!")
 
     else:
-        print("Invalid option. Please choose again.")    elif option == "D":
-        print("\nKey   Value")
-        for k, v in enumerate(items):
-            print(f"{k:<5} {v}")
-
-    elif option == "S":
-        key = int(input("Enter key: "))
-        if 0 <= key < len(items):
-            print("Result:", items[key])
-        else:
-            print("Key not found.")
-
-    else:
-        print("Invalid choice.")
+        print("Invalid option. Please choose again.")  
